@@ -47,7 +47,7 @@ def before_request():
 
 @app.errorhandler(404)
 def not_found(error) -> str:
-    """ Not found handler
+    """ Not found handler, Returns 404
     """
     return jsonify({"error": "Not found"}), 404
 
