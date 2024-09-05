@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-""" Module of Index views
+"""
+This module contains the views for the Index endpoints of the API.
 """
 from flask import jsonify, abort
 from api.v1.views import app_views
